@@ -1,0 +1,87 @@
+{
+	"Testing library test pattern - CommonsJS": {
+        "prefix": "mtr",
+        "body": [
+			"const React = require('react');",
+			"const ${TM_FILENAME_BASE/\\.spec//} = require('${TM_DIRECTORY/.*unit\\/(.*)\\/(.*)$/$1\\/$2/}/${TM_FILENAME_BASE/\\.spec//}');",
+			"const { render } = require('tests/unit/test-utils');",
+			"const { screen } = require('@testing-library/react');",
+			"",
+			"const defaultProps = {};",
+			"",
+			"const setup = (props = defaultProps) => (",
+			"  render(<${TM_FILENAME_BASE/\\.spec//} {...props} />)",
+			");",
+			"",
+			"describe('${1:${TM_FILENAME_BASE/\\.spec//}}', () => {",
+			"  it('should${2}', () => {",
+			"    setup();",
+			"",
+			"  });",
+			"})",
+        ],
+		"description": "Creates a testing library test pattern"
+    },
+	"Test describe": {
+		"prefix": "mdes",
+		"body": [
+			"describe('${1:${TM_FILENAME_BASE/\\.spec//}}', () => {",
+			"  it('should${2}', () => {",
+			"    setup();",
+			"",
+			"  });",
+		],
+		"description": "Creates a test describe block"
+	},
+	"Testing library debug": {
+		"prefix": "msd",
+		"body": [
+			"screen.debug();"
+		],
+		"description": "Creates a testing library debug command"
+	},
+	"Custom render import (CommonsJS)": {
+		"prefix": "mturr",
+		"body": [
+			"const { render } = require('tests/unit/test-utils');"
+		],
+		"description": "Creates a custom render import (CommonsJS)"
+	},
+	"Custom render import (ESModules)": {
+		"prefix": "mtur",
+		"body": [
+			"import { render } from 'tests/unit/test-utils';"
+		],
+		"description": "Creates a custom render import  (ESModules)"
+	},
+	"Setup with container": {
+		"prefix": "msc",
+		"body": [
+			"const { container } = setup();",
+		],
+		"description": "Creates setup execution extracting the returned container"
+	},
+	"Unit test function": {
+        "prefix": "mit",
+        "body": [
+            "it('should $0', () => {",
+            "setup();",
+            "",
+            "});"
+        ]
+	},
+	"getByRole selector": {
+		"prefix": "mgbr",
+		"body": [
+			"screen.getByRole('$1')$2"
+		],
+		"description": "Creates a getByRole selector"
+	},
+	"getByRole selector with name": {
+		"prefix": "mgbrn",
+		"body": [
+			"screen.getByRole('$1', { name: \/$2\/i })$3"
+		],
+		"description": "Creates a getByRole selector with a name option"
+	}
+}
