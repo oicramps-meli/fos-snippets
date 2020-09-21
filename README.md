@@ -1,4 +1,4 @@
-# Astrea React and javascript snippets
+# FOS React and javascript snippets
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)
