@@ -1,5 +1,6 @@
 {
     "name": "fos-snippets",
+    "publisher": "oicramps-meli",
     "displayName": "Fos code snippets",
     "description": "Code snippets for javascript and react projects",
     "version": "0.0.1",
