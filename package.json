@@ -3,7 +3,7 @@
     "publisher": "oicramps-meli",
     "displayName": "Fos code snippets",
     "description": "Code snippets for javascript and react projects",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.49.0"
     },

@@ -1,4 +1,4 @@
-# Astrea React and javascript snippets
+# FOS React and javascript snippets
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)
@@ -53,12 +53,12 @@ ext install astrea.astrea-snippets
 
 |  Prefix | Description                                         |
 | ------: | --------------------------------------------------- |
-|  `mtr→` | `Creates a testing library test pattern`        |
+|  `mtr→` | `Creates a testing library test pattern`        | 
 |  `mdes→` | `Creates a test describe block`        |
 |  `msd→` | `Creates a testing library debug command`        |
 |  `mturr→` | `Creates a custom render import (CommonsJS)`        |
 |  `mtur→` | `Creates a custom render import (ESModules)`        |
-|  `msc→` | `Creates setup execution extracting the returned container`        |
+|  `msc→` | `Creates a setup execution extracting the returned container`        |
 |  `mit→` | `Creates a test block`        |
 
 --------------------------------------------------------------------------------------
