@@ -1,0 +1,20 @@
+name: VSCE Publish
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: vsce publish
+        uses: sigma/vsce-publish-action@v0.0.2
+        with:
+          # vsce token
+          vsce_token: ${{ secrets.VSCE_TOKEN }}

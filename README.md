@@ -1,9 +1,9 @@
 # Astrea React and javascript snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/astrea.astrea-snippets.svg)](https://vsmarketplacebadge.apphb.com/version/astrea.astrea-snippets.svg)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/astrea.astrea-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs/astrea.astrea-snippets.svg)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/astrea.astrea-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads/astrea.astrea-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/astrea.astrea-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-star/astrea.astrea-snippets.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/version/oicramps-meli.fos-snippets.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs/oicramps-meli.fos-snippets.svg)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads/oicramps-meli.fos-snippets.svg)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/oicramps-meli.fos-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-star/oicramps-meli.fos-snippets.svg)
 
 ## Installation
 
