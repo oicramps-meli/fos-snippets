@@ -51,24 +51,31 @@ ext install astrea.astrea-snippets
 
 ### General
 
-|  Prefix | Description                                         |
-| ------: | --------------------------------------------------- |
-|  `mtr→` | `Creates a testing library test pattern`        | 
-|  `mdes→` | `Creates a test describe block`        |
-|  `msd→` | `Creates a testing library debug command`        |
-|  `mturr→` | `Creates a custom render import (CommonsJS)`        |
-|  `mtur→` | `Creates a custom render import (ESModules)`        |
-|  `msc→` | `Creates a setup execution extracting the returned container`        |
-|  `mit→` | `Creates a test block`        |
+|  Prefix   | Description                                                               |
+| ------:   | ------------------------------------------------------------------------- |
+|  `mtr→`   | `Creates a testing library test pattern`                                  | 
+|  `mtcsr`  | `Creates a testing library test pattern with custom state (CommonsJS)`    | 
+|  `mdes→`  | `Creates a test describe block`                                           |
+|  `msd→`   | `Creates a testing library debug command`                                 |
+|  `mturr→` | `Creates a custom render import (CommonsJS)`                              |
+|  `mtur→`  | `Creates a custom render import (ESModules)`                              |
+|  `msc→`   | `Creates a setup execution extracting the returned container`             |
+|  `mit→`   | `Creates a test block`                                                    |
+|  `mptr`   | `Creates a propTypes block and its import`                                |
+|  `mptdr`  | `Creates a propTypes and defaultProps blocks along with its import`       |
+|  `mdp`    | `Creates a defaultProps block`                                            |
 
 --------------------------------------------------------------------------------------
 
 ### Queries
 
-|  Prefix | Description                                         |
-| ------: | --------------------------------------------------- |
-|  `mgbr→` | `Creates a getByRole selector`        |
-|  `mgbrn→` | `Creates a getByRole selector with a name option`        |
+|  Prefix   | Description                                              |
+| --------: | -------------------------------------------------------- |
+|  `mgbr→`  | `Creates a getByRole selector`                           |
+|  `mgbrn→` | `Creates a getByRole selector`                           |
+|  `mgblt`  | `Creates a getByLabelText selector`                      |
+|  `mgbt`   | `Creates a getByText selector`                           |
+|  `mgbti`  | `Creates a getByTestId selector`                         |
 
 ----------------------------------------------------------------------------------------
 

@@ -21,7 +21,34 @@
 			"})",
         ],
 		"description": "Creates a testing library test pattern"
-    },
+	},
+	"Testing library test pattern with custom state - CommonsJS": {
+		"prefix": "mtcsr",
+		"body": [
+			"const React = require('react');",
+			"const ${TM_FILENAME_BASE/\\.spec//} = require('${TM_DIRECTORY/.*unit\\/(.*)\\/(.*)$/$1\\/$2/}/${TM_FILENAME_BASE/\\.spec//}');",
+			"const { render, defaultState } = require('tests/unit/test-utils');",
+			"const { screen } = require('@testing-library/react');",
+			"",
+			"const defaultProps = {};",
+			"",
+			"const customState = {",
+			"  ...defaultState,",
+			"};",
+			"",
+			"const setup = (props = defaultProps, initialState = customState) => (",
+			"  render(<${TM_FILENAME_BASE/\\.spec//} {...props} />, { initialState })",
+			");",
+			"",
+			"describe('${1:${TM_FILENAME_BASE/\\.spec//}}', () => {",
+			"  it('should${2}', () => {",
+			"    setup();",
+			"",
+			"  });",
+			"})",
+		],
+		"description": "Creates a testing library test pattern with custom state (CommonsJS)"
+	},
 	"Test describe": {
 		"prefix": "mdes",
 		"body": [
@@ -84,5 +111,55 @@
 			"screen.getByRole('$1', { name: \/$2\/i })$3"
 		],
 		"description": "Creates a getByRole selector with a name option"
-	}
+	},
+	"getByLabelText selector": {
+		"prefix": "mgblt",
+		"body": [
+			"screen.getByLabelText('$1')$2"
+		],
+		"description": "Creates a getByLabelText selector"
+	},
+	"getByText selector": {
+		"prefix": "mgbt",
+		"body": [
+			"screen.getByText(\/$1\/i)$2"
+		],
+		"description": "Creates a getByText selector"
+	},
+	"getByTestId selector": {
+		"prefix": "mgbti",
+		"body": [
+			"screen.getByTestId('$1')$2"
+		],
+		"description": "Creates a getByTestId selector"
+	},
+	"propTypes block and its import": {
+        "prefix": "mptr",
+        "body": [
+            "const PropTypes = require('prop-types');",
+            "",
+            "${TM_FILENAME_BASE}.propTypes = {",
+            "};"
+        ],
+		"description": "Creates a propTypes block and its import"
+	},
+	"propTypes and defaultProps blocks along with its import": {
+        "prefix": "mptdr",
+        "body": [
+            "const PropTypes = require('prop-types');",
+            "",
+            "${TM_FILENAME_BASE}.propTypes = {",
+            "};"
+        ],
+		"description": "Creates a propTypes and defaultProps blocks along with its import"
+	},
+	"defaultProps block": {
+        "prefix": "mdp",
+        "body": [
+			"${TM_FILENAME_BASE}.defaultProps = {",
+			"$1",
+            "};"
+        ],
+		"description": "Creates a defaultProps block"
+    },
 }
