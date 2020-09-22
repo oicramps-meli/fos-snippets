@@ -35,8 +35,11 @@ ext install astrea.astrea-snippets
 
 ## React
 
-|  Prefix | Description                                         |
-| ------:   | --------------------------------------------------- |
+|  Prefix    | Description                                                              |
+| ------:    | ------------------------------------------------------------------------ |
+|  `mptr→`   | `Creates a propTypes block and its import`                               |
+|  `mptdr→`  | `Creates a propTypes and defaultProps blocks along with its import`      |
+|  `mdp→`    | `Creates a defaultProps block`                                           |
 
 --------------------------------------------------------------------------------------
 
@@ -61,9 +64,6 @@ ext install astrea.astrea-snippets
 |  `mtur→`  | `Creates a custom render import (ESModules)`                              |
 |  `msc→`   | `Creates a setup execution extracting the returned container`             |
 |  `mit→`   | `Creates a test block`                                                    |
-|  `mptr→`   | `Creates a propTypes block and its import`                                |
-|  `mptdr→`  | `Creates a propTypes and defaultProps blocks along with its import`       |
-|  `mdp→`    | `Creates a defaultProps block`                                            |
 
 --------------------------------------------------------------------------------------
 
