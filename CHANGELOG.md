@@ -25,3 +25,6 @@
 
 ## [0.1.5] - 2020-09-22
 - Readme minor fixes
+
+## [0.1.6] - 2020-09-22
+- Fixes a typo in the install command on Readme

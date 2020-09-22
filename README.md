@@ -18,7 +18,7 @@ Launch _Quick Open_:
 Paste the following command and press `Enter`:
 
 ```shell
-ext install astrea.astrea-snippets
+ext install oicramps-meli.fos-snippets
 ```
 
 ## Supported languages (file extensions)
@@ -72,7 +72,7 @@ ext install astrea.astrea-snippets
 |  Prefix   | Description                                              |
 | --------: | -------------------------------------------------------- |
 |  `mgbr→`  | `Creates a getByRole selector`                           |
-|  `mgbrn→` | `Creates a getByRole selector`                           |
+|  `mgbrn→` | `Creates a getByRole selector with a name option`                           |
 |  `mgblt`  | `Creates a getByLabelText selector`                      |
 |  `mgbt`   | `Creates a getByText selector`                           |
 |  `mgbti`  | `Creates a getByTestId selector`                         |
