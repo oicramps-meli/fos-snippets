@@ -28,3 +28,6 @@
 
 ## [0.1.6] - 2020-09-22
 - Fixes a typo in the install command on Readme
+
+## [0.1.6] - 2020-09-22
+- Adds a logo to the extension
